@@ -24,15 +24,14 @@ theme = "minimal-black"
   appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
-  logo = "images/logo.png"
+  #logo = "images/avatar.jpeg"
 
   # Project and blog intro text
   projectsIntro = "Selected projects to display list." # Can be empty
-  blogIntro = "" # Can be empty
 
   # Web App Manifest Configuration (PWA support)
   [params.manifest]
-    themeColor = "#a855f7"
+    themeColor = "#303d69"
     backgroundColor = "#000000"
     categories = ["blog", "portfolio", "developer"]
 
@@ -53,13 +52,11 @@ theme = "minimal-black"
     sections = ["hero", "now", "tech-marquee", "projects", "posts"]
     showNowSection = true
     showFeaturedProjects = true
-    showLatestPosts = true
+    showLatestPosts = false
     featuredProjectsLimit = 3
     latestPostsLimit = 3
     projectsTitle = "Selected Work"
     projectsSubtitle = ""
-    blogTitle = "Latest Writing"
-    blogSubtitle = ""
     techMarqueeLabel = "Experienced In"
 
     # Technology Stack Display
@@ -68,32 +65,8 @@ theme = "minimal-black"
       icon = "devicon-python-plain"
 
     [[params.home.tech]]
-      label = "Java"
-      icon = "devicon-java-plain"
-
-    [[params.home.tech]]
-      label = "Spring"
-      icon = "devicon-spring-plain"  
-
-    [[params.home.tech]]
-      label = "Vaadin"
-      icon = "devicon-vaadin-plain"    
-
-    [[params.home.tech]]
-      label = "Debian"
-      icon = "devicon-debian-plain"
-
-    [[params.home.tech]]
-      label = "GitLab"
-      icon = "devicon-gitlab-plain"
-
-    [[params.home.tech]]
       label = "Docker"
       icon = "devicon-docker-plain"
-
-    [[params.home.techReverse]]
-      label = "PostgreSQL"
-      icon = "devicon-postgresql-plain"
 
     [[params.home.techReverse]]
       label = "MongoDB"
@@ -108,116 +81,40 @@ theme = "minimal-black"
       icon = "devicon-hugo-plain"  
 
     [[params.home.techReverse]]
-      label = "Jenkins"
-      icon = "devicon-jenkins-plain"   
-
-    [[params.home.techReverse]]
-      label = "JetBrains"
-      icon = "devicon-jetbrains-plain" 
-
-    [[params.home.techReverse]]
-      label = "Json"
-      icon = "devicon-json-plain" 
-
-    [[params.home.techReverse]]
       label = "Linux"
-      icon = "devicon-linux-plain"          
+      icon = "devicon-linux-plain"
+    
+    [[params.home.techReverse]]
+      label = "C"
+      icon = "devicon-c-original"
 
     [[params.home.techReverse]]
-      label = "Liquibase"
-      icon = "devicon-liquibase-plain" 
-
-    [[params.home.techReverse]]
-      label = "Markdown"
-      icon = "devicon-markdown-original"  
-
-    [[params.home.techReverse]]
-      label = "YAML"
-      icon = "devicon-yaml-plain"  
-
-    [[params.home.techReverse]]
-      label = "Wordpress"
-      icon = "devicon-wordpress-plain"
-
-    [[params.home.techReverse]]
-      label = "WooCommerce"
-      icon = "devicon-woocommerce-plain"            
-
-    [[params.home.techReverse]]
-      label = "Traefik"
-      icon = "devicon-traefikproxy-plain" 
-
-    [[params.home.techReverse]]
-      label = "pfSense"
-      icon = "devicon-pfsense-plain"       
-
-  # About Page Alternative Layout Configuration - Optional
-  [params.about.alt]
-    # Stats displayed in the profile card sidebar
-    [[params.about.alt.stats]]
-      value = "5+"
-      label = "Years Coding"
-
-    [[params.about.alt.stats]]
-      value = "20+"
-      label = "Projects"
-
-    [[params.about.alt.stats]]
-      value = "∞"
-      label = "Hours Spent"
-
-    # Skills/Tech Stack badges with icons
-    [[params.about.alt.skills]]
-      label = "JavaScript"
-      icon = "devicon-javascript-plain"
-
-    [[params.about.alt.skills]]
-      label = "Python"
-      icon = "devicon-python-plain"
-
-    [[params.about.alt.skills]]
-      label = "React"
-      icon = "devicon-react-original"
-
-    [[params.about.alt.skills]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
-
-    [[params.about.alt.skills]]
-      label = "PostgreSQL"
-      icon = "devicon-postgresql-plain"
-
-    [[params.about.alt.skills]]
-      label = "AWS"
-      icon = "devicon-amazonwebservices-plain"
+      label = "C++"
+      icon = "devicon-cplusplus-plain"                
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Software Engineer"
+    badge = "Computer Engineering Student"
     title = "Hi, I'm Theo Ribeiro."
     role = "Computer Engineering Student at the University of Brasilia"
-    summary = "You can write your summary to be displayed here."
-    # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
-    location = "City, Country"
-    focus = "Currently focused on Hugo themes & developer experience."
+    summary = "I'm a enthusiastic and driven Computer Engineering student with a strong interest in Algorithm Analysis, AI Modeling, Competitive Programming and Finance."
+    # avatar = "images/avatar.jpeg"  # Optional: 400x400px recommended
+    location = "Brasilia, Brazil"
+    focus = "Currently focused on Data Analysis & Project Development."
     available = true
     availableLabel = "Available for work"
 
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm mainly:"
     now = [
-      "Building minimal Hugo themes",
-      "Exploring dark-mode design patterns",
-      "Writing about web performance"
+      "Studying Python for Data Analysis",
+      "Learning about Project Development"
     ]
 
     [params.hero.primary]
       label = "View Projects"
       href = "/projects/"
 
-    [params.hero.secondary]
-      label = "Read the Blog"
-      href = "/blog/"
 
   # Icon Libraries
   [params.icons]
@@ -226,19 +123,14 @@ theme = "minimal-black"
 
   # Social Links
   [[params.social]]
-    label = "GitLab"
-    url = "https://gitlab.com/jimchr12"
-    icon = "fa-brands fa-gitlab"
+    label = "Github"
+    url = "https://github.com/theocmvr"
+    icon = "fa-brands fa-github"
 
   [[params.social]]
     label = "LinkedIn"
-    url = "https://www.linkedin.com/in/jimchristopoulos-542512221/"
+    url = "https://www.linkedin.com/in/theodecarvalhomvr/"
     icon = "fa-brands fa-linkedin-in"
-
-  [[params.social]]
-    label = "Email"
-    url = "mailto:you@example.com"
-    icon = "fa-regular fa-envelope"
 
   # Analytics Configuration
   [params.analytics]
@@ -284,15 +176,6 @@ theme = "minimal-black"
       icon = "fa-regular fa-user"
 
   [[menu.main]]
-    name = "About Alt"
-    pageRef = "about-alternative"
-    url = "/about-alternative/"
-    weight = 2
-    identifier = "about-alternative"
-    [menu.main.params]
-      icon = "fa-solid fa-user"
-
-  [[menu.main]]
     name = "Projects"
     pageRef = "projects"
     url = "/projects/"
@@ -300,15 +183,6 @@ theme = "minimal-black"
     identifier = "projects"
     [menu.main.params]
       icon = "fa-regular fa-folder-open"
-
-  [[menu.main]]
-    name = "Blog"
-    pageRef = "blog"
-    url = "/blog/"
-    weight = 4
-    identifier = "blog"
-    [menu.main.params]
-      icon = "fa-regular fa-note-sticky"
 
 # Markup Configuration
 [markup]
